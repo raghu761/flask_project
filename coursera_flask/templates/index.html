@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{%block content%}
+<h1> this is called from base </h1>
+<form method="POST">
+{{form.csrf_token()}}
+{{form.title}}
+{{form.submit}}
+</form>
+
+{% if value %}
+<h1>{{value}}</h1>
+{% endif %}
+{% endblock %}
+

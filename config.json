@@ -1,0 +1,9 @@
+{
+	"params":
+	{
+		"local_server":"True",
+		"local_uri":"mysql+pymysql://root:@localhost/first_database",
+		"prod_uri":"mysql+pymysql://root:@localhost/first_database"
+
+	}
+}
